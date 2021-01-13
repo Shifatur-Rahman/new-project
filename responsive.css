@@ -6,26 +6,72 @@
  }
 }
 @media only screen and (max-width: 1000px){
-    .left-card2{
-       width: 100%;
-       height: 100%;
-        }  
-.right-card2{
-    width: 100%;
-    height: 100%;
+
+    .leftSubscribe{
+        font-size: 30px;
+        width: 50%;
+        }
+        .rightSubscribe{
+            width: 50%;
+            }
+    .rightSubscribe_button{
+       width: 200px;
+       border-radius: 35px !important;
+       font-size: 14px !important;
+       height: 80px;
     }
-    .card2_para{
+    .notifications{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 776px){
+    .card_2{
+        overflow: hidden;
+    }
+  .left_card_2{
+      float: none;
+     width: 100%;
+  }
+  .right_card_2{
+      float: none;
+     width: 100%;
+  }
+
+}
+
+/* card2_para */
+@media only screen and (max-width: 576px){
+    .cardText{
+        writing-mode: horizontal-tb;
+        transform: rotate(0deg);
+        display: inline; 
+        margin-bottom: 0px;
+       margin: auto;
+    }
+     
+    .leftSubscribe{
+        width: 100%;
+      
+        }
+        .rightSubscribe{
+         
+            width: 100%;
+            }
+    .rightSubscribe_button{
+       width: 260px;
+       border-radius: 50px !important;
+       height: 80px;
+    }
+
+    .footerText{
         width: 100%;
     }
+
 }
 
-card2_para
-@media only screen and (max-width: 800px){
-    .cardText{
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 800px){
- 
+@media only screen and (max-width: 990px){
+ .navIcon{
+     display: none;
+ }
 }
