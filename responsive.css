@@ -49,20 +49,40 @@
         margin-bottom: 0px;
        margin: auto;
     }
-     
-    .leftSubscribe{
+
+    .left_subscribe{
         width: 100%;
-      
+        margin: auto;
+        display: block;
+        font-size: 35px;
         }
-        .rightSubscribe{
-         
-            width: 100%;
-            }
-    .rightSubscribe_button{
-       width: 260px;
-       border-radius: 50px !important;
-       height: 80px;
-    }
+     
+    .right_subscribe{
+      
+        width: 250px;
+        height: 70px;
+        }
+        .mail{
+            margin-top: 18px;
+            margin-right: 5px;
+        }
+
+        .sub{
+           
+            width: 90px;
+            height: 50px;
+            border-radius: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .card2_i_button{
+            border-radius: 30px !important;
+            width: 90px;
+            height: 50px;
+            font-size: 10px;
+            font-weight: 400 ;
+        }
 
     .footerText{
         width: 100%;

@@ -68,6 +68,15 @@ body{
     margin-right: 10px;
     text-transform: uppercase;
 }
+.cardText2{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    display: inline; 
+    /* margin-bottom: 200px; */
+    margin-right: 10px;
+    text-transform: uppercase;
+    width: 2%;
+}
 
 .card{
     border-radius: 30px !important;
@@ -112,7 +121,7 @@ background-color: #f78fb3 !important;
 
 .left_card_2{
     float: left;
-    width: 48%;
+    width: 46%;
     height: 100%;
     margin-right: 4%;
 }
@@ -157,6 +166,9 @@ height: 100%;
 .card2_icon_button{
     border-radius: 30px !important;
     width: 100px;
+    text-transform: uppercase;
+    font-size: 11px !important;
+    letter-spacing: 2px;
 }
 
 .card2_icon ul{
@@ -229,7 +241,7 @@ overflow: hidden;
     display: block !important;
     border-radius: 35px !important;
     width: 140px;
-    height: 70px;
+    height: 60px;
 }
 
 .trendy{
@@ -252,42 +264,59 @@ overflow: hidden;
     overflow: hidden;
     margin-top: 100px;
     }
-    
-    .leftSubscribe{
-    float: left;
-    width: 65%;
-    font-family: GothamBold;
-    font-size: 45px;
-    }
-    
-    .rightSubscribe{
-    float: left;
-    width: 35%;
-    }
-    
-    .notifications{
-        font-size: 20px;
-        font-weight: 700;
-        top: 50px;
-    }
-    
-    .subscribe_btn{
-        font-size: 14px;
-    }
-    
-    .rightSubscribe_button{
-        border-radius: 50px !important;
-        width: 300px;
-        height: 100px;
-    }
-    
-    .rightSubscribe_button_mini{
-        width: 80px;
-        height: 30px;
-        border-radius: 30px !important;
-        margin-top: 0px;
-    }
 
+.left_subscribe{
+float: left;
+width: 50%;
+font-family: GothamBold;
+font-size: 45px;
+}
+
+.right_subscribe{
+background-color: #130f40;
+float: left;
+width: 300px;
+height: 80px;
+border-radius: 40px;
+margin-left: 50px;
+color: #fff;
+}
+
+.subscribe_button{
+    overflow: hidden;
+}
+.mail{
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.sub{
+    float: left;
+    margin-right: 0;
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sub_span{
+    margin-top: 40px !important;
+}
+
+
+.card2_i_button{
+    border-radius: 30px !important;
+    width: 130px;
+    height: 60px;
+    text-transform: uppercase;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
 
 /*Footer */
 .footer{
@@ -297,6 +326,7 @@ overflow: hidden;
     width: 500px;
     text-align: justify;
     font-family: GothamMedium;
+    margin-top: 15px;
 }
 
 .footerIcon ul{
