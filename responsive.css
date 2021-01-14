@@ -1,10 +1,10 @@
-
-
+  
 @media only screen and (max-width: 1150px){
  .card-body h3{
      font-size: 20px;
  }
 }
+
 @media only screen and (max-width: 1000px){
 
     .leftSubscribe{
@@ -25,6 +25,12 @@
     }
 }
 
+@media only screen and (max-width: 990px){
+    .navIcon{
+        display: none;
+    }
+   }
+
 @media only screen and (max-width: 776px){
     .card_2{
         overflow: hidden;
@@ -32,11 +38,24 @@
   .left_card_2{
       float: none;
      width: 100%;
+     margin-bottom: 50px;
   }
   .right_card_2{
       float: none;
      width: 100%;
   }
+  .card_text2{
+    width: 100%;
+ 
+}
+
+.cardText2{
+    writing-mode: horizontal-tb;
+    transform: rotate(0deg);
+    display: inline; 
+    margin-bottom: 0px;
+    margin: auto;
+}
 
 }
 
@@ -58,7 +77,6 @@
         }
      
     .right_subscribe{
-      
         width: 250px;
         height: 70px;
         }
@@ -67,8 +85,7 @@
             margin-right: 5px;
         }
 
-        .sub{
-           
+        .sub{  
             width: 90px;
             height: 50px;
             border-radius: 20px;
@@ -90,8 +107,8 @@
 
 }
 
-@media only screen and (max-width: 990px){
- .navIcon{
-     display: none;
- }
-}
+/* @media only screen and (max-width: 480px){
+  
+
+
+   } */
