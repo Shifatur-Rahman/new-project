@@ -5,6 +5,7 @@
  }
 }
 
+
 @media only screen and (max-width: 1000px){
 
     .leftSubscribe{
@@ -28,6 +29,13 @@
         display: none !important;
     }
 
+    .left_card_2 img{
+       height: 100%;
+     }
+    .right_card_2{
+       height: 100%;
+     }
+
 
 }
 
@@ -35,25 +43,46 @@
     .navIcon{
         display: none;
     }
+
+    .navbar-brand
+    {
+        left: 60px;
+    }
+    .navbar ul li a{
+        margin-left: 5px;
+    }
+
+    .left_subscribe{
+       float: none;
+        text-align: center;
+        margin: auto;
+    }
+    .right_subscribe{
+       float: none;
+        margin: auto;
+    }
+    .subscribe_button{
+      margin: auto !important;
+      display: block !important;
+    }
    }
 
 @media only screen and (max-width: 776px){
-    .card_2{
-        overflow: hidden;
-    }
+    
   .left_card_2{
-      float: none;
+      
       width: 100%;
-      margin-bottom: 50px;
+     
   }
   .right_card_2{
-      float: none;
+     
      width: 100%;
   }
   .card_text2{
     width: 100%;
  
 }
+
 
 .cardText2{
     writing-mode: horizontal-tb;
@@ -67,18 +96,56 @@
 
 /* card2_para */
 @media only screen and (max-width: 576px){
+    .cardOne{
+        margin-right: 0px;
+        }
+        
+        .cardTwo{
+        margin-right: 0px;
+        }
+        
+        .cardThree{
+        margin-right: 0px;
+        }
+        
+        .cardFour{
+        margin-right: 0px;
+        }
 
-    .wrapper{   
-        margin: 0 10px 0 20px;
+    .wrapper{  
+        width:90%; 
+        display: block !important;
+        margin:  auto !important;
+    }
+
+    /* .wrapper_2{   
+        margin: auto;
+    } */
+
+    .smallCard{
+        width: 90%;
+        display: block !important;
+        margin: auto !important;
     }
 
     .cardText{
         writing-mode: horizontal-tb;
         transform: rotate(0deg);
         display: inline; 
-        margin-bottom: 0px;
+        margin-bottom: 10px !important;
         margin: auto;
     }
+    .cardText2{
+        /* margin-bottom: 10px !important; */
+    }
+
+    .card4{
+        margin-top: 0px;
+    }
+
+    /* .navigation_button{
+        margin-bottom: 45px;
+    } */
 
     .left_subscribe{
         width: 100%;
