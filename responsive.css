@@ -56,15 +56,14 @@
   .card_text2{
     width: 100%;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 
 .cardText2{
     writing-mode: horizontal-tb;
     transform: rotate(0deg);
-    margin-left: 40%;
     font-size: 12px;
-   
     margin-right: 0 !important;
     float: none;
 } 
