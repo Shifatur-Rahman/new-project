@@ -145,6 +145,10 @@
    }
 
 @media only screen and (max-width: 776px){
+
+    .cardFour_large{
+        margin-right: 0 !important;
+        }
     
   /* .left_card_2{
       
@@ -277,6 +281,10 @@
         
         .right_card_2{
             float: none;
+        }
+
+        .card2_icon_button{
+            margin-bottom: 20px;
         }
 
 

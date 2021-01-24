@@ -429,16 +429,28 @@ overflow: hidden;
 .card4_first{
     margin-bottom: 30px;
 }
+
 .card4{
     margin-top: 30px;
+    
+}
+
+.card4_first img{
+  width: 100%;
+  margin-top: 0;
+  height: 200px;
+  border-radius: 30px 30px 0 0 !important;
 }
 
 .cardFour_large{
     background-color: #8854d0 !important;
+    margin-right: 3rem !important;
+    height: 360px !important;
     }
     
     .cardFive_large{
     background-color: #f78fb3 !important;
+    height: 360px !important;
     }
 .card4_button{
     margin: auto;
