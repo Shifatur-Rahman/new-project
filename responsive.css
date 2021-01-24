@@ -21,16 +21,17 @@
      
      
      .cardTextFeatured{
+         width: 100%;
          float: none;
         margin: auto;
+        text-align: center;
          
      }
 
      .cardText{
         writing-mode: horizontal-tb;
         margin-bottom: 20px !important;
-        margin-left: 50%;
-        
+        margin-left: 0px;
     }
 
      .wrapper-grid {
@@ -54,6 +55,7 @@
 
   .card_text2{
     width: 100%;
+    margin-bottom: 10px;
 }
 
 
@@ -62,7 +64,7 @@
     transform: rotate(0deg);
     margin-left: 40%;
     font-size: 12px;
-    margin-bottom: 50px !important;
+   
     margin-right: 0 !important;
     float: none;
 } 
