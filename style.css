@@ -95,6 +95,20 @@ body{
       float: left;
       width: 1%
   }
+
+   
+  .cardText{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    display: inline; 
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
   .wrapper-grid {
        float: left;
        overflow: hidden;
@@ -130,26 +144,6 @@ body{
       margin-bottom: 30px;
   }
   
-  
-  
-  
-  
-  
-  
-  
-  .cardText{
-      writing-mode: vertical-lr;
-      transform: rotate(180deg);
-      display: inline; 
-  /*    margin-bottom: 200px;*/
-  /*    margin-right: 10px;*/
-      text-transform: uppercase;
-      font-size: 12px;
-      letter-spacing: 2px;
-      margin-left: 50px;
-      margin-top: 50px;
-  }
-  
   .card img{
        height: 170px;
        border-radius: 30px !important;
@@ -172,140 +166,39 @@ body{
   }
   
   .cardTwo{
-  background-color: #78e08f !important;
+       background-color: #78e08f !important;
        width: 16rem;
-      height: 100%;
+       height: 100%;
   /*margin-right: 30px;*/
   }
   
   .cardThree{
-  background-color: #f8c291 !important;
+       background-color: #f8c291 !important;
        width: 16rem;
-      height: 100%;
+       height: 100%;
   /*margin-right: 30px;*/
   }
   
   .cardFour{
-  background-color: #8854d0 !important;
+       background-color: #8854d0 !important;
        width: 16rem;
-      height: 100%;
-  /*margin-right: 30px;*/
+       height: 100%;
+
   }
   
   .cardFive{
-  background-color: #f78fb3 !important;
+       background-color: #f78fb3 !important;
        width: 16rem;
-      height: 100%;
+       height: 100%;
   }
   
   
   
       .cardOne, .cardTwo, .cardThree, .cardFour, .cardFive{
         
-          height: 320px;
-     
+          height: 320px;     
   }
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-/* 
-.smallCard{
-    overflow: hidden;
-    margin-top: 20px;
-}
-
-.cardText{
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    display: inline; 
-    margin-bottom: 200px;
-    margin-right: 10px;
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 2px;
-}
-
-
-.card{
-    border-radius: 30px !important;
-}
-
-
-.smallCard img{
-    border-radius: 30px !important;
-    width: 93%;
-    margin: auto;
-    margin-top: 8px;
-}
-
-
-.cardOne{
-background-color: #9AECDB !important;
-margin-right: 30px;
-}
-
-.cardTwo{
-background-color: #78e08f !important;
-margin-right: 30px;
-}
-
-.cardThree{
-background-color: #f8c291 !important;
-margin-right: 30px;
-}
-
-.cardFour{
-background-color: #8854d0 !important;
-margin-right: 30px;
-}
-
-.cardFive{
-background-color: #f78fb3 !important;
-} */
 
 
 /* card 2 */

@@ -15,49 +15,45 @@
 
 
 @media only screen and (max-width: 1000px){
-    .box{
+    /* .box{
         overflow: none;  
-     }
+     } */
      
      
      .cardTextFeatured{
          float: none;
-         width: 1%
+        margin: auto;
+         
      }
+
+     .cardText{
+        writing-mode: horizontal-tb;
+        margin-bottom: 20px !important;
+        margin-left: 50%;
+        
+    }
+
      .wrapper-grid {
           float: left;
           overflow: hidden;
           display: grid;
           grid-template-columns: repeat(auto-fit, 18rem);
           justify-content: center;
-          width: 99%;
-         
-        
+          width: 99%;   
      }
 
-    .cardText{
-        writing-mode: horizontal-tb;
-        transform: rotate(0deg);
-        display: inline; 
-        margin-bottom: 10px !important;
-        margin: auto;
-        margin-bottom: 20px;
-        margin-left: 30px;
-    }
-
+  
 
      .left_card_2{
-      
       width: 100%;
-     
   }
-  .right_card_2{
-     
+
+  .right_card_2{ 
      width: 100%;
   }
+
   .card_text2{
     width: 100%;
- 
 }
 
 
@@ -66,8 +62,9 @@
     transform: rotate(0deg);
     margin-left: 40%;
     font-size: 12px;
-    margin-bottom: 50px;
+    margin-bottom: 50px !important;
     margin-right: 0 !important;
+    float: none;
 } 
 
 
@@ -149,30 +146,6 @@
     .cardFour_large{
         margin-right: 0 !important;
         }
-    
-  /* .left_card_2{
-      
-      width: 100%;
-     
-  }
-  .right_card_2{
-     
-     width: 100%;
-  }
-  .card_text2{
-    width: 100%;
- 
-}
-
-
-.cardText2{
-    writing-mode: horizontal-tb;
-    transform: rotate(0deg);
-    margin-left: 40%;
-    font-size: 12px;
-    margin-bottom: 50px;
-    margin-right: 0 !important;
-} */
 
 }
 
@@ -199,13 +172,11 @@
         display: block !important;
         margin:  auto !important;
     }
-.name{
+
+   .name{
     font-size: 17px;
-}
+   }
 
-
-
-    
     .card_text2{
        margin-bottom: 20px;
     }
@@ -222,10 +193,6 @@
     .card4{
         margin-top: 0px;
     }
-
-    /* .navigation_button{
-        margin-bottom: 45px;
-    } */
 
     .left_subscribe{
         width: 100%;
@@ -333,11 +300,3 @@
 
 
 }
-
-
-/* 
-@media screen and (max-width:1000px){
-    .smallCard{
-      grid-template-columns: repeat(2,1fr);
-    }
-} */
