@@ -59,6 +59,200 @@ body{
 
 /* Small card */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+   */
+  .box{
+     overflow: hidden;
+       max-width: 1600px;
+       margin: auto;
+      
+  }
+  
+  
+  .cardTextFeatured{
+      float: left;
+      width: 1%
+  }
+  .wrapper-grid {
+       float: left;
+       overflow: hidden;
+       display: grid;
+       grid-template-columns: repeat(auto-fit, 18rem);
+       justify-content: center;
+       width: 99%;
+      
+     
+  }
+  
+  .container {
+    overflow: hidden;
+    background-color: white;
+    /* text-align: center; */
+    position: relative;
+    margin: 0.5rem;
+  }
+  
+  
+  .name {
+      font-weight: bold;
+      font-size: 1.5rem;
+      text-align: left;
+      margin: 10px 10px 0 20px;
+  }
+  
+  .description {
+      margin: 1rem 2rem;
+      font-size: 0.9rem;
+      text-align: left;
+      margin: 10px 10px 0 20px;
+      margin-bottom: 30px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .cardText{
+      writing-mode: vertical-lr;
+      transform: rotate(180deg);
+      display: inline; 
+  /*    margin-bottom: 200px;*/
+  /*    margin-right: 10px;*/
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 2px;
+      margin-left: 50px;
+      margin-top: 50px;
+  }
+  
+  .card img{
+       height: 170px;
+       border-radius: 30px !important;
+       width: 90%;
+       margin: auto;
+       margin-top: 12px;
+  }
+  
+  
+  .card{
+      border-radius: 30px !important;
+  }
+  
+  
+  .cardOne{
+      background-color: #9AECDB !important;
+      width: 16rem;
+      height: 100%;
+  /*margin-right: 30px;*/
+  }
+  
+  .cardTwo{
+  background-color: #78e08f !important;
+       width: 16rem;
+      height: 100%;
+  /*margin-right: 30px;*/
+  }
+  
+  .cardThree{
+  background-color: #f8c291 !important;
+       width: 16rem;
+      height: 100%;
+  /*margin-right: 30px;*/
+  }
+  
+  .cardFour{
+  background-color: #8854d0 !important;
+       width: 16rem;
+      height: 100%;
+  /*margin-right: 30px;*/
+  }
+  
+  .cardFive{
+  background-color: #f78fb3 !important;
+       width: 16rem;
+      height: 100%;
+  }
+  
+  
+  
+      .cardOne, .cardTwo, .cardThree, .cardFour, .cardFive{
+        
+          height: 320px;
+     
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+/* 
 .smallCard{
     overflow: hidden;
     margin-top: 20px;
@@ -88,6 +282,7 @@ body{
     margin-top: 8px;
 }
 
+
 .cardOne{
 background-color: #9AECDB !important;
 margin-right: 30px;
@@ -110,7 +305,7 @@ margin-right: 30px;
 
 .cardFive{
 background-color: #f78fb3 !important;
-}
+} */
 
 
 /* card 2 */
@@ -193,7 +388,7 @@ display: block;
 
 .card2_para p{
     text-align: justify;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .card2_address{
@@ -254,6 +449,18 @@ overflow: hidden;
 }
 
 
+.cardOne_card3{
+    background-color: #9AECDB !important;
+    }
+    
+    .cardTwo_card3{
+    background-color: #78e08f !important;
+    }
+    
+    .cardThree_card3{
+    background-color: #f8c291 !important;
+    }
+    
 /* navigation */
 .trendy{
     margin-top: 5rem;
